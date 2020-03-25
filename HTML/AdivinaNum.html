@@ -1,0 +1,38 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <link rel="stylesheet" href="../Css/AdivinaNum.css">
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Adivina</title>
+</head>
+
+<body id="Bc">
+    <main>
+        <div class="BoxAdivina">
+            <div class="Titular">
+                <nav> Adivina el numero </nav>
+            </div>
+            <span>Que numero sera?</span>
+            <input type="number" name="Num" id="input" class="ValueInputs">
+            <button id="Adivina" onclick="ViewAraayInput()"> Lo adivinaste?</button>
+            <button id="Restart"> Actualizar </button>
+        </div>
+
+        <div class="BoxDatos">
+            <div class="Datos DNumEquivocados" id="div22">
+                <span>Números equivocados</span>
+                <div id="div1"></div>
+
+            </div>
+            <!-- <div class="Datos DNumError">
+                <span>Número de errores</span>
+            </div> -->
+        </div>
+    </main>
+    <script src="../Js/AdivinaNum.js"></script>
+    <!-- aqui se crea -->
+</body>
+
+</html>

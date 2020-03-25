@@ -1,0 +1,60 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+body{
+    background-color: teal;
+    margin-top: 125px;
+    text-align: center;
+    width: 90%;
+    margin-left: auto;
+    margin-right: auto;
+}
+.Titular{
+    width: 100%;
+    background-color: whitesmoke;
+    position: fixed;
+    top: 0;
+    right: 0;
+    padding-top: 5px;
+    padding-bottom: 5px;
+}
+.BoxAdivina{
+    width: 250px;
+    margin-right: auto;
+    margin-left: auto;
+    padding: 15px;
+    box-shadow: 2px 2px 7px black;
+    background-color: whitesmoke;
+    display: flex;
+    flex-direction: column;
+    margin-bottom: 125px;
+}
+input{
+    margin-bottom: 5px;
+    margin-top: 10px;
+}
+button{
+    margin: 5px;
+}
+.Datos{
+    background-color: yellow;
+    width: 250px;
+    height: auto;
+    margin-left: auto;
+    margin-right: auto;
+    margin-top: 5px;
+    margin-bottom: 5px;
+    box-shadow: 2px 2px 7px black;
+}
+/* .BoxDatos{
+    width: 100%;
+    margin-right: auto;
+    margin-left: auto;
+    display: flex;
+    flex-wrap: wrap;
+    box-shadow: 2px 2px 7px black;
+    background-color: whitesmoke;
+    padding: 5px;
+} */
