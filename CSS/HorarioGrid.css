@@ -1,0 +1,135 @@
+body {
+  width: 90%;
+  margin-left: auto;
+  margin-right: auto;
+  font-family: Arial, Helvetica, sans-serif;
+  margin-top: 75px;
+}
+img{
+  width: 250px;
+  margin-right: auto;
+}
+.l2{
+  margin-right: 16px;
+  margin-top: auto;
+  margin-bottom: auto;
+}
+nav{
+  height: auto;
+  width: 100%;
+  position: fixed;
+  top: 0;
+  left: 0;
+  background-color: goldenrod;
+  z-index: 100;
+  display: flex;
+  flex-direction: row;
+}
+.Container {
+  display: grid;
+  grid-template-columns: [d]0.25fr [Lun]1fr [Mart]1fr [Mier]1fr [Juev]1fr [Vier]1fr;
+  grid-template-rows: [h]0.25fr [h15-16]1fr [h16-17]1fr [h17-18]1fr [h18-19]1fr [h19-20]1fr [h20-21]1fr;
+  grid-column-gap: 10px;
+  grid-row-gap: 15px;
+  text-align: center;
+}
+.Dia{
+  border: 0.1em solid black;
+  background-color: seagreen;
+}
+.Time{
+  border: 0.1em solid black;
+  background-color: yellow;
+}
+.T{
+  background-color: white;
+}
+.Clases{
+  display: flex;
+  flex-direction: column;
+  background-color: red;
+  box-shadow: 2px 2px 7px black;
+  border-style: groove;
+  position: relative; 
+}
+.DLunes {
+  grid-column: Lun;
+  grid-row: h;
+}
+.Info{
+  position: absolute;
+  width: 16px;
+  height: 16px;
+  top: 2px;
+  right: 5px;
+}
+.Info img{
+  width: 16px;
+  height: 16px;
+}
+.Clase{
+  margin-top: auto;
+}
+.Salon{
+  margin-bottom: auto;
+}
+.lh16-17 {
+  grid-row: h16-17;
+  grid-column: Lun;
+}
+.lh17-19 {
+  grid-area: h17-18 / Lun / 6;
+}
+.lh19-21 {
+  grid-area: h19-20 / Lun / 8;
+}
+.DMartes {
+  grid-column: Mart;
+  grid-row: h;
+}
+.mh15-17 {
+  grid-area: h15-16 / Mart / 4;
+}
+.mh17-18 {
+  grid-row: h17-18;
+  grid-column: Mart;
+}
+.mh18-20 {
+  grid-area: h18-19 / Mart / 7;
+}
+.DMiercoles {
+  grid-column: Mier;
+  grid-row: h;
+}
+.DJueves {
+  grid-column: Juev;
+  grid-row: h;
+}
+.DViernes {
+  grid-column: Vier;
+  grid-row: h;
+}
+.hr15 {
+  grid-row: h15-16;
+  grid-column: d;
+}
+.hr16 {
+  grid-row: h16-17;
+  grid-column: d;
+}
+.hr17 {
+  grid-row: h17-18;
+  grid-column: d;
+}
+.hr18 {
+  grid-row: h18-19;
+  grid-column: d;
+}
+.hr19 {
+  grid-row: h19-20;
+  grid-column: d;
+}
+.hr20 {
+  grid-row: h20-21;
+  grid-column: d;
+}
