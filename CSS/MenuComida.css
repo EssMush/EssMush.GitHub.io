@@ -1,0 +1,61 @@
+body{
+    font-family: 'Bangers', cursive;
+    font-family: 'Bebas Neue', cursive;
+    font-family: 'Bowlby One SC', cursive;
+    font-family: 'Montserrat', sans-serif;
+    width: 80%;
+    margin-left: auto;
+    margin-right: auto;
+    background-color: darkgrey;  
+}
+
+div.titulo{
+    font-size: 25px;
+    padding-left: 32%; 
+}
+img.Taco{
+    width: 250px;
+    height: auto;
+    float: left;
+    padding-left: 5%;
+}
+p.parrafo{
+    font-size: 18px;   
+    padding-left: 25%;
+    
+}
+p.Precios{
+    font-size: 25px; 
+    padding-left: 25%;
+}
+h1{
+    color: red;
+    font-size: 55px;
+    border-top: 0.15em solid black;
+    border-bottom: 0.15em solid black;
+    font-family: 'Bangers', cursive;
+    font-family: 'Bebas Neue', cursive;
+    font-family: 'Bowlby One SC', cursive;
+    padding-left: 40%;
+}
+p.EncaPa{
+    font-size: 20px;
+    padding-left: 30%;
+}
+h3{
+    color: red;
+    font-size: 30px;
+    padding-left: 25%;
+}
+h4{
+    color: red;
+    font-size: 30px;
+    padding-left: 25%;
+}
+div.BoxMenu{
+    background-color: whitesmoke;
+    border: 0.15em solid black;
+    overflow: auto;
+    padding: 0.2%;
+
+}

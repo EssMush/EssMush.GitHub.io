@@ -1,0 +1,66 @@
+*{
+    padding: 0px;
+    margin: 0px;
+    box-sizing: border-box;
+}
+#BoxAll{
+    background-color: rgb(163, 136, 163);
+}
+#BoxAll, html{
+    height: 100%;
+    text-align: center;
+}
+.XO1{
+    margin-left: 15px;
+}
+main{
+    height: 80%;
+}
+#BoxGato{
+    width: 80%;
+    height: 100%;
+    background-color: black;
+    margin-left: auto;
+    margin-right: auto;
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr;
+    grid-template-rows: 1fr 1fr 1fr;
+    justify-items: stretch;
+    column-gap: 5px;
+    row-gap: 5px;
+    font-size: 5em;
+    box-shadow: 2px 2px 7px black;
+}
+.GatoIn{
+    background-color: white;
+    border: 1px solid black;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+}
+nav{
+    margin-bottom: 100px;
+    background-color: whitesmoke;
+    padding: 5px;
+}
+.Opciones{
+    width: 40%;
+    margin-right: auto;
+    margin-left: auto;
+    background-color: whitesmoke;
+    box-shadow: 2px 2px 7px black;
+    margin-bottom: 15px;
+    padding: 5px;
+}
+.Buttss{
+    margin-right: 25px;
+    margin-left: auto;
+}
+.W{
+    margin-right: 25px;
+    margin-left: auto;
+}
+.R{
+    margin-right: 25px;
+    margin-left: auto;
+}
