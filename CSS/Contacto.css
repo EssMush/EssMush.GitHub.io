@@ -1,19 +1,39 @@
 body{
-    background-color: black;
     text-align: center;
+    background-color: black;
 }
-main{
+.MgImg{
+    margin-right: 15px;
+}
+.Formulario{
     margin-top: 56px;
+    padding-top: 120px;
     display: flex;
     flex-direction: row;
     flex-wrap: wrap;
+    justify-content: center;
+    align-items: center;
 }
 .container{
-    margin-top: 100px;
     height: auto;
     width: 500px;
 }
+.MgTop{
+    margin-top: 35px;
+}
 .Bd-Bottom{
-    padding-top: 80px;
     border-bottom: 0.5em solid orange;
+}
+.StyText{
+    font-family: 'Bangers', cursive;
+    font-family: 'Bebas Neue', cursive;
+    font-family: 'Poppins', sans-serif;
+}
+.StyTiti{
+    font-family: 'Bangers', cursive;
+    font-family: 'Bebas Neue', cursive;
+    font-family: 'Anton', sans-serif;
+}
+form input{
+    margin:5px;
 }
