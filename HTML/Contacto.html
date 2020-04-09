@@ -7,15 +7,49 @@
     <meta http-equiv="X-UA-Compatible" content="ie=edge">
     <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/twitter-bootstrap/4.4.1/css/bootstrap.min.css">
     <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.11.2/css/all.min.css">
-    <link rel="stylesheet" href="style.css">
+    <link rel="stylesheet" href="/CSS/Contacto.css">
     <title>Title</title>
 </head>
 
-<body style="background-color: black; text-align: center; display: flex; flex-direction: column;">
-    
-    <img style="height: 600px; width: 100%;" src="https://2.bp.blogspot.com/-en142nsbumQ/W4O2brH8yoI/AAAAAAAAAIA/N_A0kYDgBf0W_TILuu2w2OshMBjzhMxwwCLcBGAs/s1600/construccion.gif" alt="">
-    
-    <a style="width: 150px; margin: auto;" class="btn btn-light" href="./inicio2.html">Regresar</a>
+<body>
+
+    <!-- Navegador -->
+    <nav class="StyTypo navbar navbar-expand-lg navbar-light bg-warning fixed-top">
+        <img class="MgImg" src="/IMG/Logo GR.png" alt="">
+        <a class="navbar-brand" href="../index.html">Gr México C.I</a>
+        <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarNavAltMarkup"
+            aria-controls="navbarNavAltMarkup" aria-expanded="false" aria-label="Toggle navigation">
+            <span class="navbar-toggler-icon"></span>
+        </button>
+        <div class="collapse navbar-collapse" id="navbarNavAltMarkup">
+            <div class="navbar-nav">
+                <a data-scroll class="nav-item nav-link active bd-right" href="#Home">Inicio</a>
+                <a class="nav-item nav-link active bd-right" href="#Servicios">Servicios</a>
+                <a class="nav-item nav-link active bd-right" href="#Identidad">Nuestra Identidad</a>
+                <a class="nav-item nav-link active" href="#">Contactanos</a>
+            </div>
+        </div>
+    </nav>
+    <!-- Formulario -->
+    <main>
+        <div class="container">
+            <div class="Bd-Bottom">
+                <h1 class="text-white">Por favor llene este formulario y nuestro equipo le contactará lo antes posible
+                </h1>
+            </div>
+        </div>
+        <div class="container">
+            <form>
+                <span class="text-white">Nombre (Rquerido)</span> <br>
+                <input type="text" name="Cliente"><br>
+                <span class="text-white">Correo (Rquerido)</span> <br>
+                <input type="text" name="EmailClt"><br>
+                <span class="text-white">Mensaje</span> <br>
+                <span> <textarea name="Mensaje" id="TxtMensaje" cols="60" rows="10"></textarea> </span> <br>
+                <input type="button" value="Enviar Datos">
+            </form>
+        </div>
+    </main>
 
     <script src="https://cdnjs.cloudflare.com/ajax/libs/jquery/3.4.1/jquery.slim.min.js"></script>
     <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.16.0/umd/popper.min.js"></script>

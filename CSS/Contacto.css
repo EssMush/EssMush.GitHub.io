@@ -1,0 +1,19 @@
+body{
+    background-color: black;
+    text-align: center;
+}
+main{
+    margin-top: 56px;
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+}
+.container{
+    margin-top: 100px;
+    height: auto;
+    width: 500px;
+}
+.Bd-Bottom{
+    padding-top: 80px;
+    border-bottom: 0.5em solid orange;
+}
