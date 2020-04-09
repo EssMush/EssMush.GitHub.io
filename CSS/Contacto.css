@@ -2,21 +2,23 @@ body{
     text-align: center;
     background-color: black;
 }
+.center{
+    justify-content: center;
+}
 .MgImg{
     margin-right: 15px;
 }
 .Formulario{
-    margin-top: 56px;
-    padding-top: 120px;
+    margin-top: 50px;
     display: flex;
-    flex-direction: row;
-    flex-wrap: wrap;
+    flex-direction: column;
     justify-content: center;
     align-items: center;
 }
 .container{
-    height: auto;
-    width: 500px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
 }
 .MgTop{
     margin-top: 35px;
